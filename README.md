@@ -20,5 +20,5 @@ To work as a group to create a website utilizing git and GitHub. Demonstrate und
 ## Our Work
 <img src="https://media.discordapp.net/attachments/928000623041974382/928155319123734538/Screen_Shot_2022-01-05_at_12.16.57_AM.png" width='500'>
 <img src="https://media.discordapp.net/attachments/928000623041974382/928127892683112468/unknown.png" width='500'>
-<img src="https://user-images.githubusercontent.com/56774880/148260208-665347bd-6535-4b41-97fe-0c61a26d778f.png" width='500'>
+<img src="https://cdn.discordapp.com/attachments/928000623041974382/928344382657151026/homepage.png" width='500'>
 
