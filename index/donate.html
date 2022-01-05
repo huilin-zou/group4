@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color: #BFB8AD;
+          color: white;
+          font-family: rokkitt;
+        }
+        #help{
+            background-color: #EADEDA;
+           
+        }
+        header{
+            background:#BFB8AD;
+            font-family:verdana;
+        }
+        header::after{
+            content: ' ';
+            display: table;
+            clear:both;
+        }
+        nav{
+            float:right;
+        }
+        nav ul{
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+        nav li{
+            display:inline-block;
+            margin-left:70px;
+            padding-top: 25px;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            text-transform:uppercase;
+        }
+        .column{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+      </style>
+</head>
+<header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li> <a href="home.html" target="_blank">Home Page</a> </li>
+                <li>   <a href="covid-19.html" target="_blank"> COVID-19 </a> </li>
+                <li>   <a href="#" target="_self"> Donation Page</a>  </li>
+                
+            </ul>
+
+
+        </nav>
+
+    </div>
+</header>
+<body>
+    
+    <div class="container">
+        <div id="founder">
+            <h3>Animal Care Centers of NYC (ACC)</h3>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div id = "help">
+            <center><h1 style="font-size:90px"><b><i>How you can help!</i></b></h1></center>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <img src="https://compote.slate.com/images/bc511516-cdfb-4558-8440-555b8e19c328.jpeg?width=780&height=520&rect=4561x3041&offset=0x0" alt = "Dog" style="width:100%">
+          <a href="https://www.nycacc.org/get-involved/donate"target = "_blank"><button><h1>Donate</h1></button></a> 
+          <p style="font-size:2vw"> All donations go for ACC helps tens of thousands of animals, whether it be at the center or in the community.  </p>
+        </div>
+        <div class="column">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg" alt = "cat" style="width:100%">
+            <a href="https://www.nycacc.org/get-involved/foster"target = "_blank"><button><h1>Adopt</h1></button></a> 
+            <p style="font-size:2vw"> When adopting, you are adding them to your family, providing a safe, clean, and loving environment. These homeless pets are finding a new forever home.</p>
+        </div>
+        <div class="column">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/two-baby-wild-rabbits-kissing-royalty-free-image-1574723140.jpg" alt="bunnies" style="width:100%">
+          <a href="https://www.nycacc.org/get-involved/volunteer"target = "_blank"><button><h1>Volunteer</h1></button></a> 
+          <p style="font-size:2vw"> The volunteers at ACC all play a vital role within the organization whether it be but not limited to caring for the animals, showing affection, taking photos, or writing entries. There are many opportunities for you to choose from as a ACC volunteer.</p>
+        </div>
+      </div>
+
+
+</body>
+</html>
