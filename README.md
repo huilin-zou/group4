@@ -18,5 +18,7 @@ To work as a group to create a website utilizing git and GitHub. Demonstrate und
 <img src="https://user-images.githubusercontent.com/56774880/148260218-9fa01f0a-8694-4334-bf3f-97c345112508.png" width='500'>
 
 ## Our Work
-https://media.discordapp.net/attachments/928000623041974382/928155319123734538/Screen_Shot_2022-01-05_at_12.16.57_AM.png?width=1640&height=932
-https://media.discordapp.net/attachments/928000623041974382/928127892683112468/unknown.png?width=1644&height=931
+<img src="https://media.discordapp.net/attachments/928000623041974382/928155319123734538/Screen_Shot_2022-01-05_at_12.16.57_AM.png" width='500'>
+<img src="https://media.discordapp.net/attachments/928000623041974382/928127892683112468/unknown.png" width='500'>
+<img src="https://user-images.githubusercontent.com/56774880/148260208-665347bd-6535-4b41-97fe-0c61a26d778f.png" width='500'>
+
