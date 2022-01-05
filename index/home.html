@@ -1,13 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang = "en">
+
+<main id="main">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>ACC Intro</title>
+
+    <style>
+    body {background-color: #eadeda;}
+    h1   {color: #665c5c; font-family: verdana; font-size:280%; text-align: center;}
+    h2   {color: #665c5c; font-family:verdana ; font-size: 180%; text-align: center;}
+    h3   {color: #665c5c; font-family:verdana ; font-size: 200%; text-align: center;}
+    p    {color: #665c5c; font-family: verdana; font-size: 130%; text-align: center;}
+    img {float:left;}
+    nav{
+    float: right;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 40px;
+
+    position:relative;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: snow;
+  }
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color:rgb(153, 136, 136);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    width: 100%;
+  }
+ 
+  </style>
+
   </head>
   <body>
+   
+  <nav>
+    <ul>
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="covid-19.html">COVID-19</a>
+      </li>
+      <li>
+        <a href="https://www.nycacc.org/" target="_blank">ACC Homepage</a>
+      </li>
+    </ul>
+    </nav>
+      
+<br>
+<br>
+<br>
+<br>
+
+    <h1>Animal Care Centers of NYC</h1>
+    <h2>A Bright Future For All Animals in the Five Boroughs</h2>
+
+    <br>
+   
     
+    <div align="right">
+      <img style="margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);
+      transition: background-color 300ms;" 
+      src="https://i.postimg.cc/VLF7zvyQ/FF7656-A4-2734-41-E8-B4-D3-DB9-EF4-E607-E1.jpg" 
+      width="500">
+      <div align="right">       
+        
+    <p>Individuals from all over New York City come to Animal Care Centers every day of the week
+      for reasons as diverse as reclaiming lost pets, adopting new furry family 
+      members and getting resources to help them keep their pets in homes.</p>
+
+    <p>We strive to find loving homes for homeless and abandoned cats, dogs, and rabbits, 
+      both by adopting animals directly to the public and by partnering with more than 200 
+      dedicated animal placement organizations (our New Hope partners). Our field services 
+      division responds to calls from the public to help keep NYC communities safe and rescue 
+      animals in need, and we have facilities in all five boroughs.</p>
+    
+    <h3>Join us in our mission to end animal homelessness in NYC!</h3>
+
+
+    <br>
+    <br>
+      
+
   </body>
 </html>
-<!-- testing -->
+
+</main>
+
